@@ -54,10 +54,10 @@ public class MainViewController implements Initializable {
 	}
 
 	//Function for open a new window
-	private synchronized <T> void loadView(String absolutName, Consumer<T> initializingAction) {
+	private synchronized <T> void loadView(String absoluteName, Consumer<T> initializingAction) {
 
 		try {
-			FXMLLoader loader = new FXMLLoader(getClass().getResource(absolutName));
+			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
 			VBox newVBox = loader.load();
 			
 			//Get scene reference;
