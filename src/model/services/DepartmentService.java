@@ -2,7 +2,6 @@ package model.services;
 
 import java.util.List;
 
-import gui.util.Alerts;
 import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
 import model.entities.Department;
